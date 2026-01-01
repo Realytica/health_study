@@ -13,6 +13,7 @@ def plot_bp_hist(df: pd.DataFrame) -> None:
     """
     plt.figure(figsize=(8, 5))
     plt.hist(df["systolic_bp"], bins=20)
+    plt.axvline(df["systolic_bp"].mean(), color = "red", linestyle = "--")
     plt.xlabel("Systolic Blood Pressure (mmHg)")
     plt.ylabel("Count")
     plt.title("Distribution of Systolic Blood Pressure")
