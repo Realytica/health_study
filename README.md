@@ -1,5 +1,15 @@
-# health_study
 ## Human health study
+
+## Reproducibility
+- Python version: **Python 3.14.1
+- A fixed random seed is used in the notebook (`np.random.seed(42)`).
+
+## Setup
+Create/activate a virtual environment and install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 Data quality:
 The dataset contains 800 participants and no missing values. Categorical variables (sex, smoker, disease) contain only expected categories, so no cleaning was required.
