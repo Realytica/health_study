@@ -1,4 +1,3 @@
-# health_study
 ## Human health study
 
 ## Reproducibility
